@@ -1,0 +1,21 @@
+{
+  "name": "static-gallery-generator",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "compile": "bun build ./index.tsx --compile --outfile out/generate-static-gallery"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.13.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^19.0.0-rc-7670501b-20241124",
+    "react-dom": "^19.0.0-rc-7670501b-20241124"
+  }
+}
