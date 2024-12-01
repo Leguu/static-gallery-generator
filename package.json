@@ -6,7 +6,7 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "compile": "bun build ./index.tsx --compile --outfile out/generate-static-gallery"
+    "compile": "bun build ./src/index.tsx --compile --outfile out/generate-static-gallery"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
