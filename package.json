@@ -2,6 +2,7 @@
   "name": "static-gallery-generator",
   "module": "index.ts",
   "type": "module",
+  "private": true,
   "devDependencies": {
     "@types/bun": "latest"
   },
