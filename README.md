@@ -10,3 +10,7 @@ generate-static-gallery > index.html
 ```
 
 Done! When served as a static site, or if you open the HTML file directly, it'll show you all your images.
+
+![Desktop example](assets/example.png)
+
+![Mobile example](assets/example_mobile.png)
