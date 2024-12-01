@@ -5,21 +5,17 @@ body {
   margin: 0;
   padding: 4rem;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.gallery-item img {
+
+img,
+video {
   max-width: 25rem;
   width: 100%;
-}
-.gallery-item video {
-  max-width: 25rem;
-  width: 100%;
-}
-.gallery-item .video-container {
-  margin-top: 2rem;
 }
 
 @media (max-width: 950px) {
@@ -27,7 +23,8 @@ body {
     padding: 2rem;
   }
 
-  .gallery-item img {
+  img,
+  video {
     max-width: 100%;
   }
 }
